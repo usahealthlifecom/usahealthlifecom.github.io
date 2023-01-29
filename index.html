@@ -1,1 +1,581 @@
-<p> This is first page </p>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Verdana;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #333333;
+  color: white;
+  
+  float: left;
+  border: 10px;
+  outline: none;
+  cursor: pointer;
+  padding: 19px 9px;
+  font-size: 35px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #555;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display:;
+  padding: 100px 20px;
+  height: 200%;
+}
+
+#Home {background-color: white;}
+#Search {background-color: white;}
+#Menu {background-color: white;}
+#About {background-color: white;}
+#Login{background-color: white;}
+
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'Lightgray')" >Home</button>
+<button class="tablink" onclick="openPage('Search', this, 'Lightgray')" >Search</button>
+<button class="tablink" onclick="openPage('Menu', this, 'Lightgray')" >Menu</button>
+<button class="tablink" onclick="openPage('About', this, 'Lightgray')" >About</button>
+<button class="tablink" onclick="openPage('Login', this, 'lightgray')">Login</button>
+
+
+<div id="Home" class="tabcontent">
+<body>
+		<p style="font-size:90px;">Debbie's Website Store</p>	
+		<h1> Feel the crisp!</h1>
+
+    
+		
+		<h1 style="background-color:red;">U</h1>
+		<h1 style="background-color:darkorange;">s</h1>
+		<h1 style="background-color:yellow;">a</h1>
+		<h1 style="background-color:lightgreen;">h</h1>
+		<h1 style="background-color:lightseagreen;">e</h1>
+		<h1 style="background-color:dodgerblue;">a</h1>
+		<h1 style="background-color:blueviolet;">l</h1>
+		<h1 style="background-color:purple;">t</h1>
+		<h1 style="background-color:mediumvioletred;">h</h1>
+		<h1 style="background-color:hotpink;">l</h1>
+		<h1 style="background-color:lightpink;">i</h1>
+		<h1 style="background-color:salmon;">f</h1>
+		<h1 style="background-color:tomato;">e</h1>
+		
+		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		.switch {
+		  position: relative;
+		  display: inline-block;
+		  width: 60px;
+		  height: 34px;
+		}
+		
+		.switch input { 
+		  opacity: 0;
+		  width: 0;
+		  height: 0;
+		}
+		
+		.slider {
+		  position: absolute;
+		  cursor: pointer;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  background-color: #ccc;
+		  -webkit-transition: .4s;
+		  transition: .4s;
+		}
+		
+		.slider:before {
+		  position: absolute;
+		  content: "";
+		  height: 26px;
+		  width: 26px;
+		  left: 4px;
+		  bottom: 4px;
+		  background-color: white;
+		  -webkit-transition: .4s;
+		  transition: .4s;
+		}
+		
+		input:checked + .slider {
+		  background-color: #2196F3;
+		}
+		
+		input:focus + .slider {
+		  box-shadow: 0 0 1px #2196F3;
+		}
+		
+		input:checked + .slider:before {
+		  -webkit-transform: translateX(26px);
+		  -ms-transform: translateX(26px);
+		  transform: translateX(26px);
+		}
+		
+		/* Rounded sliders */
+		.slider.round {
+		  border-radius: 34px;
+		}
+		
+		.slider.round:before {
+		  border-radius: 50%;
+		}
+		</style>
+		</head>
+		<body>
+		
+		<h2>Switch</h2>
+		 <p>100% Beauty</p>
+		<label class="switch">
+		 <input type="checkbox">
+		  <span class="slider"></span>
+		 
+		</label>
+		<p>Super Cool</p>
+		<label class="switch">
+		  <input type="checkbox" checked>
+		  <span class="slider"></span>
+		
+		</label><br><br>
+		<p>Infinite IQ</p>
+		<label class="switch">
+		  <input type="checkbox">
+		  <span class="slider round"></span>
+		</label>
+		<p>Fast like Dash</p>
+		<label class="switch">
+		  <input type="checkbox" checked>
+		  <span class="slider round"></span>
+		</label>
+		
+		</body>
+		</html> 
+
+
+</div>
+
+
+<div id="Search" class="tabcontent">
+<html>
+<head>
+<style> 
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+</body>
+</html>
+
+
+
+ </div>
+<div id="Menu" class="tabcontent">
+<style>
+th, td {
+  border-style:solid;
+  border-color: black;
+}
+</style>
+</head>
+<body>
+
+
+<table style="width:90%">
+  <tr>
+    <th>Food</th>
+    <th>Price</th> 
+    <th>Time</th>
+  </tr>
+  <tr>
+    <td>Burger</td>
+    <td>5.99</td>
+    <td>5 mins</td>
+  </tr>
+  <tr>
+    <td>Frenchfries</td>
+    <td>1.99</td>
+    <td>2 mins</td>
+  </tr>
+  <tr>
+    <td>Bevarge</td>
+    <td>0.99</td>
+    <td>30 seconds</td>
+  </tr>
+</table>
+</div>
+<div id="About" class="tabcontent">
+<h1>We are us.</h1>
+
+
+
+<p>You can fill this form out! to hep improve this website</p>
+<head>
+	
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+	color:black;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+		<option value="usa">Asia</option>
+		<option value="usa">Mexico</option>
+	    <option value="usa">South America</option>
+		<option value="usa">India</option>
+		<option value="usa">Europe</option>
+		<option value="usa">Africa</option>
+		<option value="usa">Japan</option>
+		<option value="usa">Philipenes</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+ 
+  </form>
+  <h1>Visit us At:</h1>
+
+<a href="https://www.facebook.com/profile.php?id=100046152439663"><img src="img/P7.png" width=90 height=90</a>
+<a href="https://www.tiktok.com/@usahealthlife"><img src="img/P8.png" width=90 height=90</a>
+<a href="https://twitter.com/usahealthlife"><img src="img/P9.png"width=90 height=90</a>
+  </div>
+ 
+ 
+
+<div id="Login" class="tabcontent">
+	
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Modal Login Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+  
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+   
+  </form>
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
+
